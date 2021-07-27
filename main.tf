@@ -26,7 +26,7 @@ resource "aws_instance" "app_server" {
   ami           = var.instance_ami
 //  ami           = "ami-08d70e59c07c61a3a"
   instance_type = "t2.micro"
-  key_name = "aws_kms_key"
+  key_name = var.key_name
 
   tags = {
     Name = var.instance_name

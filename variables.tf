@@ -9,3 +9,9 @@ variable "instance_ami"{
     type        = string
     default = "ami-08d70e59c07c61a3a"
 }
+
+variable "key_name"{
+    description = "ssh key"
+    type        = string
+    default = "aws_kms_key"
+}
