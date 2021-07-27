@@ -8,4 +8,5 @@ This lab deploys a t2.micro ubuntu-xenial-16.04 AMI AWS EC2 instance with a keyp
 
   To avoid unwanted charges use ```terraform destroy``` to tear down your infrastructure. 
  * AWS CLI installed in your development machine, use this guide https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
-* Dynatrace Free Trial Account
+* Dynatrace Free Trial Account to monitor our EC2 Instance and Nginx Webserver
+
